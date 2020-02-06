@@ -1,0 +1,67 @@
+@font-face {
+    font-family: 'loraregular';
+    src: url('../../font/lora-regular-webfont.woff2') format('woff2'),
+         url('../../font/lora-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+
+
+@font-face {
+    font-family: 'montserratregular';
+    src: url('../../font/montserrat-regular-webfont.woff') format('woff2'),
+         url('../../font/montserrat-regular-webfont2.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+h1 {
+    font-family: 'loraregular';
+}
+
+.navbar {
+    background-color: #171717;
+}
+
+.nav-item .nav-link {
+    margin-right: 25px;
+    font-family: 'monserratregular';
+    font-weight: 400;
+    color: white !important;
+}
+
+.nav-item.active a{
+    color: #F9B234 !important;
+}
+
+.carousel {
+    height: 450px;
+    background-color: #171717;
+}
+
+.row .col h5,
+.row .col p, {
+    color: white !important;
+}
+
+.futures{
+    background-color: #f6f7fb;
+}
+
+.futures h5 {
+    color: #1B2690;
+}
+
+.futures p {
+    color: #b7b7b7;
+}
+
+.collapse .nav-link {
+    color: white;
+}
+
+.nav-link span {
+    color: #F9B234 !important;
+}
